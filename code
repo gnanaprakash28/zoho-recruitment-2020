@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std:
+void printWord(string str)
+int len =str.length();
+for (int i=0,j=len-1;i<=len,j>=0:i++,j--)
+{
+if (i==j)
+{
+for (int x=0;x<i;x++)
+cout << str[i]<< endl;
+}
+else if(i>j)
+{
+for (int x=j-1;x>=0;x--)
+cout << str[j];
+for (int x=0;x<i-j-1;x++)
+cout << str[i]<<endl;
+}
+}
+int main()
+{
+printWord("welcome");
+return  0;
+}
+
